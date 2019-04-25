@@ -1,0 +1,2 @@
+enabled: true        # global enable/disable the entire plugin
+siteId: 0            # Your tawk.to Site ID can be found in the tawk.to dashboard
