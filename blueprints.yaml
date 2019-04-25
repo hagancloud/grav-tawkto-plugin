@@ -1,0 +1,35 @@
+name: tawkto
+version: 1.0.0
+description: "tawk.to plugin for your Grav website."
+icon: location-arrow
+author:
+  name: Joshua Hagan
+  email: joshua@uptimemania.com.au
+  url: https://uptimemania.com.au
+homepage: https://github.com/uptimemania/grav-tawkto-plugin/
+keywords: tawkto, free, livechat
+bugs: https://github.com/uptimemania/grav-tawkto-plugin/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      hightlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    siteId:
+      type: text
+      size: medium
+      label: Site ID
+      placeholder: 0
+      help: Your site id found in the dashboard at tawk.to under property settings.
+     
+   
