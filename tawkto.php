@@ -33,9 +33,7 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
-<!--End of Tawk.to Script-->
-<script type=\"text/javascript\">
+
             ";
             $this->grav['assets']->addInlineJs($init);
         }
