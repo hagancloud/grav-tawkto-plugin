@@ -16,7 +16,7 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install tawkto
 
-This will install the tawk.to plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/piwik`.
+This will install the tawk.to plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/tawkto`.
 
 ## Manual Installation
 
