@@ -23,7 +23,6 @@ class tawktoPlugin extends Plugin
         $siteId = trim($this->config->get('plugins.tawkto.siteId'));
         if ($siteId) {
             $init = "
-//<!--Start of Tawk.to Script-->
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0];
