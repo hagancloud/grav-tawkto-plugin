@@ -1,5 +1,5 @@
 # grav-tawkto-plugin
-A simple tawk.to plugin for grav websites - this plugin was built for the uptime mania website and shared to easily add tawk.to to your website and imrove the code base.
+A simple tawk.to plugin for grav websites.
 
 This is [Grav CMS](http://getgrav.org) plugin that helps you implement [tawk.to Live Chat](https://tawk.to).
 
